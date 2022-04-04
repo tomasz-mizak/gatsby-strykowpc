@@ -21,6 +21,7 @@
 
   display: flex;
   justify-content: space-between;
+  flex-flow: column wrap;
   
   .App-header__name {
     margin-bottom: 1vmin;
@@ -33,17 +34,22 @@
   }
 
   .App-header__navigation {
-    display: none;
+    ul {
+      padding: 0;
+      list-style: none;
+      display: flex;
+    }
   }
 
 }
 
 .App-footer {
   padding: calc(3px + .5vmin) calc(15px + 1vmin);
-  margin-top: 15vmin;
+  margin-top: 12vmin;
   margin-bottom: 5vmin;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   background-color: #005b99;
   color: #fafafa;
 }
@@ -68,16 +74,11 @@ td {
 @media only screen and (min-width: 600px) {
   
   .App {
-    margin: 8vmin 40vmin 0 40vmin;
-  }
-
-  .App-header {
-
+    margin: 8vmin 15vmin 0 15vmin;
   }
 
   .App-header__navigation {
     
-    display: block !important;
     margin-bottom: calc(12px + 2vmin);
     ul {
       padding: 0;
@@ -91,3 +92,17 @@ td {
 
 }
 
+@media only screen and (min-width: 1200px) {
+  .App-header {
+    flex-flow: row;
+  }
+  .App {
+    margin: 8vmin 25vmin 0 25vmin;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .App {
+    margin: 8vmin 40vmin 0 40vmin;
+  }
+}
