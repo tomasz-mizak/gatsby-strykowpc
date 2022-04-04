@@ -8,7 +8,6 @@ const Layout = ({children}) => {
   return (
     <main className="App">
       <Helmet>
-        <meta charSet="utf-8" />
         <meta name="description" content="Naprawa laptopów i komputerów w Strykowie." />
         <meta property="og:title" content="StrykówPC" />
         <meta property="og:url" content="https://www.strykowpc.pl/" />
