@@ -76,3 +76,13 @@ a {
 small {
   font-size: calc(8px + 1vmin);
 }
+
+form {
+  label {
+    font-size: calc(11px + 1vmin);
+    &.error {
+      color: #eb0000;
+      font-weight: 600;
+    }
+  }
+}

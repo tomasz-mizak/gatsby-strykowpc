@@ -19,7 +19,7 @@ const Layout = ({children}) => {
       </Helmet>
       <header className="App-header">
         <div className="App-header__name">
-          <h1>StrykówPC</h1>
+          <h1>Serwis komputerowy Stryków - StrykówPC</h1>
           <p>Serwis komputerowy, usługi informatyczne.</p>
         </div>
         <div className="App-header__navigation">
@@ -36,7 +36,8 @@ const Layout = ({children}) => {
           </ul>
         </div>
       </header>
-      <div className="App-image"></div>
+      {/* <div className="App-image"></div> */}
+      <img src={Mirror} alt="Banner ujmujący gniazdo procesora wraz z nim." className="App-image" />
       <section className="App-content">
         {children}
       </section>

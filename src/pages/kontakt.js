@@ -4,10 +4,29 @@ import Layout from "../components/layout";
 const ContactPage = () => {
   return (
     <Layout>
-      <h2>Kontakt</h2>
+      <h2>Skontaktuj się z nami</h2>
       <p><b>Tomasz Mizak</b><br/>tel. 512-294-324<br/>email. serwis@strykowpc.pl</p>
-      <h3>Poproś o wycenę korzystając z poniższego formularza</h3>
-      <iframe title="Formularz wyceny" src="https://docs.google.com/forms/d/e/1FAIpQLSe8vnDMvDZVQYokPzj83dbxcoo9IKAnleLGbz81rZBF1ygRCg/viewform?embedded=true" width="640" height="998" frameborder="0" marginheight="0" marginwidth="0">Ładuję…</iframe>
+      <h3>lub zgłoś się po wycenę korzystając z poniższego formularza:</h3>
+      <form>
+        <label className="error"></label>
+        <div className="form-group horizontal">
+          <label>Imię</label>
+          <input type="text"></input>
+        </div>
+        <div className="form-group horizontal">
+          <label>Numer telefonu</label>
+          <input type="text"></input>
+        </div>
+        <div className="form-group horizontal">
+          <label>Adres email</label>
+          <input type="text"></input>
+        </div>
+        <div className="form-group horizontal">
+          <label>Opis problemu</label>
+          <textarea></textarea>
+        </div>
+        <input type="submit" value="Wyślij zgłoszenie"/>
+      </form>
     </Layout>
   )
 }

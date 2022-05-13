@@ -12,9 +12,8 @@
 .App-image {
   width: 100%;
   height: calc(100px + 10vmin);
-  background-image: url('../images/mirror.jpg');
+  object-fit: cover;
   margin-bottom: calc(16px + 2vmin);
-  background-size: cover;
 }
 
 .App-header {
@@ -70,6 +69,43 @@ td {
   border: 1px solid #005c996b;
 }
 
+form {
+
+  .form-group {
+
+    display: flex;
+    flex-flow: column;
+
+    label {
+      flex: 1;
+      text-align: left;
+    }
+
+    input {
+      flex: 1;
+    }
+
+    textarea {
+      flex: 1;
+    }
+
+    margin-bottom: calc(5px + 1vmin);
+
+  }
+  
+  label {
+    margin-right: calc(5px + 1vmin);
+  }
+
+  input[type='submit'] {
+    background-color: transparent;
+    color: #005b99;
+    border: 2px solid #005b99;
+    font-size: calc(11px + 1vmin);
+    padding: calc(4px + .25vmin);
+  }
+
+}
 
 @media only screen and (min-width: 600px) {
   
@@ -99,10 +135,31 @@ td {
   .App {
     margin: 8vmin 25vmin 0 25vmin;
   }
+  form {
+    .form-group {
+      input {
+        width: 50%;
+      }
+      textarea {
+        width: 50%;
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 1600px) {
   .App {
     margin: 8vmin 40vmin 0 40vmin;
+  }
+}
+
+.App-content {
+  h1 {
+    font-size: calc(24px + 2vmin);
+    margin: 0;
+  }
+  h2, h3, h4 {
+    font-size: calc(16px + 2vmin);
+    margin: 0;
   }
 }
