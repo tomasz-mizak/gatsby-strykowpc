@@ -38,7 +38,7 @@ const Layout = ({children}) => {
         </div>
       </header>
       {/* <div className="App-image"></div> */}
-      <img src="https://i.imgur.com/y8Ouc7z.jpg" alt="Banner ujmujący gniazdo procesora wraz z nim." title="Zdjęcie z bliska płyty głównej laptopa." className="App-image" />
+      <img src="https://i.imgur.com/dqbl4Se.jpg" alt="Banner ujmujący gniazdo procesora wraz z nim." title="Zdjęcie z bliska płyty głównej laptopa." className="App-image" />
       <section className="App-content">
         {children}
       </section>
