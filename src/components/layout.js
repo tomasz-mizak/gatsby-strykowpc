@@ -9,11 +9,11 @@ const Layout = ({children}) => {
     <main className="App">
       <Helmet>
         <meta name="title" content="Naprawa laptopów i komputerów stacjonarnych w Strykowie." />
-        <meta name="description" content="Szukasz serwisu komputerowego? Twój laptop nie działa? Trafiłeś/łaś idealnie, zajmujemy się profesjonalną naprawą i konserwacją sprzętu komputerowego na terenie Strykowa i okolic. Oferujemy usługi w konkurencyjnych cenach, zadzwoń już dziś! Odbierzemy Twój sprzęt oraz w ekspresowym tempie zajmiemy się jego naprawą. Pracujemy do późna, jedyny taki serwis w Strykowie i okolicach!" />
+        <meta name="description" content="Szukasz serwisu komputerowego? Twój laptop nie działa? Trafiłeś/łaś idealnie, zajmujemy się profesjonalną naprawą i konserwacją sprzętu komputerowego na terenie Strykowa i okolic. Oferujemy usługi w konkurencyjnych cenach, zadzwoń już dziś! Odbierzemy Twój sprzęt oraz w ekspresowym tempie zajmiemy się jego naprawą." />
         <meta property="og:title" content="Naprawa laptopów i komputerów w miejscowości Stryków" />
         <meta property="og:url" content="https://www.strykowpc.pl/" />
         <meta property="og:type" content="website" />
-        <meta property="og:description" content="Szukasz serwisu komputerowego? Twój laptop nie działa? Trafiłeś/łaś idealnie, zajmujemy się profesjonalną naprawą i konserwacją sprzętu komputerowego na terenie Strykowa i okolic. Oferujemy usługi w konkurencyjnych cenach, zadzwoń już dziś! Odbierzemy Twój sprzęt oraz w ekspresowym tempie zajmiemy się jego naprawą. Pracujemy do późna, jedyny taki serwis w Strykowie i okolicach!" />
+        <meta property="og:description" content="Szukasz serwisu komputerowego? Twój laptop nie działa? Trafiłeś/łaś idealnie, zajmujemy się profesjonalną naprawą i konserwacją sprzętu komputerowego na terenie Strykowa i okolic. Oferujemy usługi w konkurencyjnych cenach, zadzwoń już dziś! Odbierzemy Twój sprzęt oraz w ekspresowym tempie zajmiemy się jego naprawą." />
         <meta property="og:locale" content="pl_PL" />
         <meta property="og:image" content={Mirror} />
         <title>Naprawa laptopów i komputerów Stryków - StrykówPC</title>
