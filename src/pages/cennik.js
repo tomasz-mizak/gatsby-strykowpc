@@ -8,47 +8,47 @@ const PricingPage = () => {
       <p>Ceny zawarte w poniższej tabeli mają charakter poglądowy.<br/>Niektóre usługi nie zostały uwzględnione, prosimy o kontakt telefoniczny, jeżeli Państwa wymagania nie mieszczą się w poniższej reprezentacji.</p>
       <table>
         <tr>
-          <th>Usługa</th>
-          <th>Opis</th>
-          <th width="12%">Cena</th>
+          <th width="80%">Usługa</th>
+          <th width="20%">Cena</th>
         </tr>
         <tr>
-          <td>Czyszczenie urządzenia</td>
-          <td>Obejmuje wymianę pasty termoprzewodzącej na układach CPU i GPU, czyszczenie pozostałych elementów obudowy oraz wentylatorów (jeżeli możliwe, rozebranie i ponowne smarowanie).</td>
+          <td>Konserwacja urządzenia (więcej niżej)</td>
           <td>100 zł</td>
         </tr>
         <tr>
           <td>Odzyskiwanie danych</td>
-          <td>Próba odzyskania informacji usuniętych bądź utraconych z nośnika.</td>
           <td>150 zł</td>
         </tr>
         <tr>
-          <td>Montaż</td>
-          <td>Złożenie komputera stacjonarnego, bądź modyfikacja obecnych podzespołów do wyznaczonego budżetu zgodnie z obecnymi trendami mocy obliczeniowej.</td>
-          <td>40-100 zł</td>
+          <td>Wymiana klawiatury w laptopie</td>
+          <td>20 zł</td>
         </tr>
         <tr>
-          <td>Instalacja systemu operacyjnego</td>
-          <td>Czysta instalacja lub przeniesienie z dysku na dysk - najczęściej w przypadku ulepszeń HDD na SSD.</td>
+          <td>Wymiana matrycy w laptopie</td>
+          <td>50 zł</td>
+        </tr>
+        <tr>
+          <td>Wymiana obudowy laptopa</td>
+          <td>40 zł</td>
+        </tr>
+        <tr>
+          <td>Instalacja systemu operacyjnego wraz z sterownikami i oprogramowaniem</td>
           <td>45 zł</td>
         </tr>
         <tr>
           <td>Zabezpieczenie danych</td>
-          <td>Dotyczy umieszczenia danych w chmurze, cena zależna jest od zużywanego miejsca. Wykonywane są również klony dysków, umieszczanie danych na zewnętrznych nośnikach, czy szkolenia z zabezpieczania danych.</td>
           <td>~ 100 zł</td>
         </tr>
         <tr>
           <td>Usuwanie hasła z systemu windows</td>
-          <td>Na niezabezpieczonych dyskach - bez bitlocker'a.</td>
           <td>30 zł</td>
         </tr>
         <tr>
           <td>Szkolenia (zdalne)</td>
-          <td>Programowanie C#, Java, C++, JavaScript - korepetycje oraz kompletne kursy z podstaw programowania dla szkół podstawowych, liceów, techników oraz studiów.</td>
           <td>od 80 zł</td>
         </tr>
       </table>
-
+      {/* <p className="warning--red"></p> */}
     </Layout>
   )
 }
