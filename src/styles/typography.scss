@@ -3,11 +3,11 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, .App-header__canonical {
   color: #005b99;
 }
 
-h1 {
+h1, .App-header__canonical {
   font-size: calc(28px + 2vmin);
 }
 
@@ -87,4 +87,10 @@ form {
 
 .warning--red {
   color: #eb0000;
+}
+
+.App-header__canonical {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
 }
