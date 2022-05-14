@@ -20,13 +20,13 @@ const Layout = ({children}) => {
       </Helmet>
       <header className="App-header">
         <div className="App-header__name">
-          <h1>Serwis komputerowy Stryków</h1>
+          <h1><a rel="canonical" href="https://www.strykowpc.pl/">Serwis komputerowy Stryków</a></h1>
           <p>Profesjonalne naprawy sprzętu komputerowego w konkurencyjnych cenach.</p>
         </div>
         <div className="App-header__navigation">
           <ul>
             <li>
-              <Link to="/" activeClassName="Link--active">Strona główna</Link>
+              <Link to="/" activeClassName="Link--active" rel="canonical">Strona główna</Link>
             </li>
             <li>
               <Link to="/cennik/" activeClassName="Link--active">Cennik usług</Link>
