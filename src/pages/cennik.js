@@ -1,9 +1,11 @@
 import * as React from "react";
 import Layout from "../components/layout";
+import Seo from "../components/seo";
 
 const PricingPage = () => {
   return (
     <Layout>
+      <Seo title="Cennik" keywords={['koszt', 'usługi', 'cena']} description="Cennik usług naszego serwisu, mający charakter poglądowy, gdyż cena w rzeczywistości dobierana jest indywidualnie od usługi oraz klienta." lang="pl" />
       <h2>Cennik</h2>
       <p>Ceny zawarte w poniższej tabeli mają charakter poglądowy.<br/>Niektóre usługi nie zostały uwzględnione, prosimy o kontakt telefoniczny, jeżeli Państwa wymagania nie mieszczą się w poniższej reprezentacji.</p>
       <table>

@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 import "../styles/app.scss";
 import Mirror from '../images/mirror.jpg';
 import { Helmet } from "react-helmet";
+import { FaFacebook } from 'react-icons/fa';
 
 const Layout = ({children}) => {
   return (
@@ -34,6 +35,9 @@ const Layout = ({children}) => {
             <li>
               <Link to="/kontakt/" activeClassName="Link--active">Kontakt</Link>
             </li>
+            <li>
+              <Link to="/jak-dojechac/" activeClassName="Link--active">Jak dojechać?</Link>
+            </li>
           </ul>
         </div>
       </header>
@@ -42,6 +46,15 @@ const Layout = ({children}) => {
         {children}
       </section>
       <footer className="App-footer">
+        <div className="App-footer__socials">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/StrykowPC" rel="norefferer">
+                <FaFacebook />
+                <span>Polub nas na Facebooku!</span>
+            </a></li>
+          </ul>
+        </div>
         <div className="App-footer__copyrights">
           <small>All rights reserved &copy; 2022, StrykówPC</small>
         </div>

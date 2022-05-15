@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `StrykówPC`,
-    siteUrl: `https://www.strykowpc.pl`
+    siteUrl: `https://www.strykowpc.pl`,
+    author: `@tomasz-mizak`
   },
   plugins: [
     `gatsby-plugin-sass`,

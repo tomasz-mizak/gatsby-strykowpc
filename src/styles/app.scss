@@ -37,6 +37,11 @@
       padding: 0;
       list-style: none;
       display: flex;
+      li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
     }
   }
 
@@ -47,10 +52,28 @@
   margin-top: 12vmin;
   margin-bottom: 5vmin;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   background-color: #005b99;
   color: #fafafa;
+
+  .App-footer__socials {
+    ul, li {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    a {
+      color: #fafafa;
+      font-size: calc(8px + 1vmin);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      span {
+        margin-left: calc(1px + 0.5vmin);
+      }
+    }
+  }
 }
 
 table {
@@ -122,6 +145,7 @@ form {
       display: flex;
       li {
         margin-right: calc(11px + 1vmin);
+        display: flex;
       }
     }
   }
